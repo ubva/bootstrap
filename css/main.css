@@ -1,0 +1,40 @@
+.use__card{
+    width: 100%;
+    background-color: rgb(121, 190, 220);
+}
+.movie__card{
+    position: relative;
+}
+.datatime::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/datatime.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 319px;
+    left: 17px;
+}
+.data_number::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/Gold_Star.svg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 360px;
+    left: 17px;
+}
+.movie__box-card{
+    margin-left: 155px;
+}
+.nav{
+    position: relative;
+}
+.nav__list{
+    position: absolute;
+    left: 393px;
+    top: 10px;
+}
